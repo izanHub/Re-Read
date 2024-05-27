@@ -1,0 +1,178 @@
+html {
+    font-size: 50px;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+.encabezado {
+    background-color: #0e490e;
+    padding: 15px 20px;
+    text-align: left;
+}
+.titulo {
+    color: #ffffff;
+    font-weight: bold;
+    left: 0;
+    font-size: 0.4rem;
+}
+.tituloreread{
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.descreread {
+    text-align: center;
+    font-size: 0.4rem;
+    width: 800px;
+    margin: 0 auto;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.column2-1 {
+    width: 65%;
+}
+.column2-2 {
+    width: 35%;
+}
+nav {
+    border-bottom: 2px solid orange;
+}
+/* indica el estilo css de los elementos del panel de navegación */
+nav li {
+    font-size: 0.3rem;
+    background-color: rgba(255, 255, 255, 0.5);
+	display: inline-block;
+    padding: 15px 20px;
+    text-align: left;
+}
+/* indica el estilo css de los elementos del panel de navegación */
+nav a {
+	color: #000000;
+	text-decoration: none;
+}
+/* indica el estilo css de los elementos del panel de navegación al arrastrar el ratón por encima */
+nav li:hover {
+    color: white;
+    background-color: rgb(255, 115, 0);
+}
+.textobotones {
+    font-size: 0.5rem;
+    margin-left: 8%;
+}
+.textobotones2 {
+    font-size: 0.5rem;
+    margin-left: 8%;
+}
+.column2-2titulo {
+    font-size: 0.5rem;
+}
+.column2-2texto {
+    padding: 1px;
+    background-color: #1b571b;
+    margin: 10px;
+    color: white;
+    font-size: 0.4rem;
+}
+.column2-2p {
+    margin-left: 4%;
+}
+.fleximglibros {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: left;
+    margin-left: 8%;
+}
+.column-3 {
+    width: 33%;
+}
+.row2 {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.libro {
+    margin-left: 120px;
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+.libro img {
+    width: 100%;
+    height: auto;
+}
+.libro p {
+    font-size: 0.25rem;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    nav li {
+        width: 100%;
+        text-align: center;
+    }
+    .descreread {
+        font-size: 0.35rem;
+        width: 95%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .column2-1,
+    .column2-2 {
+        width: 100%;
+    }
+
+    nav li {
+        font-size: 0.25rem;
+        padding: 10px 15px;
+    }
+
+    .textobotones,
+    .textobotones2 {
+        font-size: 0.4rem;
+        margin-left: 4%;
+    }
+
+    .column2-2titulo {
+        font-size: 0.4rem;
+        margin-left: 2%;
+    }
+
+    .column2-2texto {
+        font-size: 0.35rem;
+    }
+
+    .column2-2p {
+        margin-left: 2%;
+    }
+
+    .fleximglibros {
+        width: 100%;
+        margin-left: 4%;
+    }
+    .imglibros {
+        width: 75%;
+    }
+
+    .row2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .libro {
+        margin-left: 0;
+        margin-bottom: 20px;
+        width: 60%;
+    }
+
+    .libro p {
+        font-size: 0.20rem;
+    }
+}
