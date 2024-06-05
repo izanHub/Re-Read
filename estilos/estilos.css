@@ -142,7 +142,7 @@ nav li:hover {
 .tituloFo1{
     color: #ffffff;
     font-size: 0.3rem;
-    margin-left: 3%;
+    margin-left: 40%;
     width: 100%
 }
 .textoFo1{
@@ -153,12 +153,14 @@ nav li:hover {
 .textoFo2{
     color: #707070;
     font-size: 0.4rem;
-    margin-left: 3%;
+    margin-left: 40%;
 }
 .imgredes{
     border-radius: 50%;
 }
-
+.redes{
+    margin-left: 10%;
+}
 @media (max-width: 700px) {
     nav li {
         width: 100%;
@@ -178,8 +180,12 @@ nav li:hover {
     .yt{
         width: 95%;
     }
+    .tituloFo1{
+        margin-left: 3%;
+    }
     .textoFo2{
         color: red;
+        margin-left: 3%;
     }
     .footer{
         display: block;
