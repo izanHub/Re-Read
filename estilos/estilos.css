@@ -128,7 +128,36 @@ nav li:hover {
     margin: auto;
 }
 
-
+.footer{
+    display: flex;
+    background-color: #191919;
+    width: 100%;
+}
+.tituloFo{
+    color: #ffffff;
+    font-size: 0.3rem;
+    margin-left: 3%;
+    width: 50%;
+}
+.tituloFo1{
+    color: #ffffff;
+    font-size: 0.3rem;
+    margin-left: 3%;
+    width: 100%
+}
+.textoFo1{
+    color: #707070;
+    font-size: 0.4rem;
+    margin-left: 3%;
+}
+.textoFo2{
+    color: #707070;
+    font-size: 0.4rem;
+    margin-left: 3%;
+}
+.imgredes{
+    border-radius: 50%;
+}
 
 @media (max-width: 700px) {
     nav li {
@@ -148,6 +177,15 @@ nav li:hover {
     }
     .yt{
         width: 95%;
+    }
+    .textoFo2{
+        color: red;
+    }
+    .footer{
+        display: block;
+    }
+    .redes{
+        margin-left: 3%;
     }
 
     .column2-1,
